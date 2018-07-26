@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+
+    android:padding="6dp"
+    tools:context=".AgendaPenting">
+
+    <ListView
+        android:id="@+id/tvAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"></ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/bg_button"
+        android:onClick="tambahbaru"
+        android:text="Tambah Baru"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
